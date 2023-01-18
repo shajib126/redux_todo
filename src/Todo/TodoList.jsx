@@ -32,7 +32,7 @@ const TodoList = () => {
               <button onClick={()=>todoEdit(i,val)} className="edit"><span class="material-symbols-outlined">edit</span>Edit</button>
             </td>
             <td>
-              <button onClick={(i)=>todoDeleteAlert(i)} className="del"><span class="material-symbols-outlined">delete</span>Del</button>
+              <button onClick={()=>todoDeleteAlert(i)} className="del"><span class="material-symbols-outlined">delete</span>Del</button>
             </td>
           </tr>
         ))}
