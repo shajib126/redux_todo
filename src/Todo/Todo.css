@@ -1,0 +1,9 @@
+.todo{
+   width: 80%;
+    margin: auto;
+    background-color: rgb(147, 168, 185);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: rgb(105, 22, 22);
+    height: 100vh;
+}

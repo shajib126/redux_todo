@@ -1,0 +1,44 @@
+table{
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+   
+    
+}
+thead{
+    color: rgb(21, 87, 87);
+    margin-right: 2rem;
+}
+tbody {
+   color: rgb(43, 130, 201);
+  
+  
+}
+tbody td{
+    border: 1px solid rgb(127, 114, 139);
+    text-align: center;
+    
+    
+}
+tbody td button{
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+    background: transparent;
+    font-size: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+tbody td button:hover{
+    transform: scale(1.1);
+}
+.edit{
+    color: green;
+}
+.del{
+    color: brown;
+}

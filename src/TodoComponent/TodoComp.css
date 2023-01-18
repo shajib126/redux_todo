@@ -1,0 +1,30 @@
+.todoComp{
+    margin-bottom: 2rem;
+    width: 60%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.todoComp input{
+    width: 60%;
+    border: 1px solid rgb(133, 92, 92);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px  ;
+    
+}
+.todoComp button{
+    width: 14%;
+    border: 1px solid grey;
+    padding: 0.8rem;
+
+    border-radius: 1rem;
+    background: transparent;
+    box-shadow: 1px 1px 1px 1px  ;
+    font-size: 1.2rem;
+    color: rgb(37, 179, 18);
+    cursor: pointer;
+
+}
