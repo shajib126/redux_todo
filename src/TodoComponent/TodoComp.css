@@ -1,7 +1,7 @@
 .todoComp{
     margin-bottom: 2rem;
     width: 60%;
-    margin: 2rem auto;
+    margin:3rem 10rem ;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -11,18 +11,18 @@
     width: 60%;
     border: 1px solid rgb(133, 92, 92);
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 1px 1px 1px 1px  ;
     
 }
 .todoComp button{
-    width: 14%;
+    width: 100px;
     border: 1px solid grey;
     padding: 0.8rem;
 
-    border-radius: 1rem;
+    border-radius: 0.4rem;
     background: transparent;
-    box-shadow: 1px 1px 1px 1px  ;
+    
     font-size: 1.2rem;
     color: rgb(37, 179, 18);
     cursor: pointer;

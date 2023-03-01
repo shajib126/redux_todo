@@ -8,7 +8,7 @@ const Todo = () => {
   
   return (
     <div className='todo'>
-        <h1 style={{textAlign:"center"}}>Todo_App</h1>
+        <h1 style={{marginLeft:'100px'}}>Todo App</h1>
         <TodoComp/>
         <TodoList/>
         
